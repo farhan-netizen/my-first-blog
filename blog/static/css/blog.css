@@ -2,23 +2,29 @@ body {
     padding-left: 15px;
 }
 
-h1 a, h2 a {
-    color: #C25100;
-    font-family: 'Lobster';
+h1 a {
+    color: #DD0004;
+    font-family: 'Inspiration';
+}
+
+h2 a {
+  color: #00c278;
+  font-family: 'Avro';
 }
 
 .page-header {
-    background-color: #C25100;
+    background-color: #BBC2CC;
     margin-top: 0;
     margin-bottom: 40px;
-    padding: 20px 20px 20px 40px;
+    margin-left: -20px;
+    padding: 20px 20px 20px 20px;
 }
 
 .page-header h1,
 .page-header h1 a,
 .page-header h1 a:visited,
 .page-header h1 a:active {
-    color: #ffffff;
+    color: #DD0004;
     font-size: 36pt;
     text-decoration: none;
 }
@@ -27,7 +33,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Fjalla One', sans-serif;;
 }
 
 .date {

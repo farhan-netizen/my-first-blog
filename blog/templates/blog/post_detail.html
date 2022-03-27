@@ -15,6 +15,7 @@
             </time>
         {% endif %}
         <h2>{{ post.title }}</h2>
-        <p style="color:black;font-size:24px;">{{ post.text|linebreaksbr }}</p>
+        {{post.introduction | linebreaksbr}}
+      {{ post.body | safe}}
     </article>
 {% endblock %}

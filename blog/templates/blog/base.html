@@ -8,6 +8,9 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
@@ -15,9 +18,9 @@
         <div class="container">
            
                 <form action="{% url 'index' %}">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search this site" aria-label="Search"
+                    <input class="form-inline my-2 my-lg-0" style="margin: 0 auto;" type="search" placeholder="Search this site" aria-label="Search"
                         name="search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" style="justify-content: center;" type="submit">Search</button>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
         
                 <a href="{% url 'post_new' %}" class="top-menu">
